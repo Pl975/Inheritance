@@ -112,6 +112,7 @@ object WallService {
 
 fun main() {
     val comments = Comments(5)
+    WallService.add(Post(1, "Good Morning", comments))
     WallService.add(Post(1, "Good Evening", comments))
     WallService.print()
     comments.count = 10

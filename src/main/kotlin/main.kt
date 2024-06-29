@@ -4,7 +4,6 @@ data class Comments(var count: Int)
 
 data class Post(
     val id: Int,
-//    val authorId: Int,
     val text: String,
     val comments: Comments = Comments(0)
 )
